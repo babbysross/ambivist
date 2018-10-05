@@ -1,140 +1,197 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>News</title>
-    <meta name=”description” content=”Ambivist are a progressive rock band based in Glasgow, Scotland.”>
-    <meta name=”keywords” content=”Ambivist,Prog,Progressive,Glasgow,Scotland,Rock.”>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="Ambivist">
-    <meta charset="UTF-8">
-    <link rel="icon" href="files/favicon.png">
-    <style type="text/css">
-      body {background-color:white; font-family: bariolregular}
-      h1  {color:black; font-size: 237%; font-weight: 900}
-      h3 a:visited {color: #ece9e7;}
-      h3 a:link {color:#ece9e7; text-decoration: none}
-      h3 a:hover {color: white;}
-      p {font-size: 125%; font: fonts/}
-      #Bar {background-color: #1C1C1D; 
-            color:white;}
-      #Bar td {height: 60%; width:300px;}
-      #Bar table {text-align: center}
-      #logo {max-width:50%}
-      #admin a {font-size: 87%}
-      #admin a:visited {color: #ece9e7;}
-      #admin a:link {color: #ece9e7;}
-      #admin a:hover {color: hsl(192, 67%, 27%);}
-      .admin {
-        margin-top: auto;
-      }
-      .block {color:black; font-size: 100%; font-weight: 900} 
-      .block h3 p {text-decoration: none}
-       /* Style all font awesome icons */
-      .fa {
-        display: flex;
-        flex-direction: column;
-        padding: 2%;
-        font-size: 30px;
-        width: 10%;
-        max-width:50px;
-        text-align: center;
-        text-decoration: none;
-      }
 
-      /* Add a hover effect if you want */
-      .fa:hover {
-        opacity: 0.7;
-      }
+<head>
+  <title>News</title>
+  <meta name=”description” content=”Ambivist are a progressive rock band based in Glasgow, Scotland.”>
+  <meta name=”keywords” content=”Ambivist,Prog,Progressive,Glasgow,Scotland,Rock.”>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Ambivist">
+  <meta charset="UTF-8">
+  <link rel="icon" href="files/favicon.png">
+  <style type="text/css">
+    body {
+      background-color: white;
+      font-family: bariolregular
+    }
 
-      /* Set a specific color for each brand */
+    h1 {
+      color: black;
+      font-size: 237%;
+      font-weight: 900
+    }
 
-      /* Facebook */
-      .fa-facebook {
-        background: #3B5998;
-        color: white;
-      }
+    h3 a:visited {
+      color: #ece9e7;
+    }
 
-      /* Twitter */
-      .fa-twitter {
-        background: #55ACEE;
-        color: white;
-      } 
+    h3 a:link {
+      color: #ece9e7;
+      text-decoration: none
+    }
 
-      /* Instagram */
-      .fa-instagram {
-        background: #125688;
-        color: white;
-      } 
+    h3 a:hover {
+      color: white;
+    }
 
-      /* Reddit */
-      .fa-reddit {
-        background: #ff5700;
-        color: white;
-      }
+    p {
+      font-size: 125%;
+      font: fonts/
+    }
 
-      /* Github */
-      .fa-github {
-        background: red;
-        color: white;
-      }
-       
-    </style>
-  </head>
+    #Bar {
+      background-color: #1C1C1D;
+      color: white;
+    }
+
+    #Bar td {
+      height: 60%;
+      width: 300px;
+    }
+
+    #Bar table {
+      text-align: center
+    }
+
+    #logo {
+      max-width: 50%
+    }
+
+    #admin a {
+      font-size: 87%
+    }
+
+    #admin a:visited {
+      color: #ece9e7;
+    }
+
+    #admin a:link {
+      color: #ece9e7;
+    }
+
+    #admin a:hover {
+      color: hsl(192, 67%, 27%);
+    }
+
+    .admin {
+      margin-top: auto;
+    }
+
+    .block {
+      color: black;
+      font-size: 100%;
+      font-weight: 900
+    }
+
+    .block h3 p {
+      text-decoration: none
+    }
+
+    /* Style all font awesome icons */
+    .fa {
+      display: flex;
+      flex-direction: column;
+      padding: 2%;
+      font-size: 30px;
+      width: 10%;
+      max-width: 50px;
+      text-align: center;
+      text-decoration: none;
+    }
+
+    /* Add a hover effect if you want */
+    .fa:hover {
+      opacity: 0.7;
+    }
+
+    /* Set a specific color for each brand */
+
+    /* Facebook */
+    .fa-facebook {
+      background: #3B5998;
+      color: white;
+    }
+
+    /* Twitter */
+    .fa-twitter {
+      background: #55ACEE;
+      color: white;
+    }
+
+    /* Instagram */
+    .fa-instagram {
+      background: #125688;
+      color: white;
+    }
+
+    /* Reddit */
+    .fa-reddit {
+      background: #ff5700;
+      color: white;
+    }
+
+    /* Github */
+    .fa-github {
+      background: red;
+      color: white;
+    }
+  </style>
+</head>
 
 <body>
   <center>
-  <link rel="stylesheet" href="stylesheet.css" type="text/css" charset="utf-8" />
-  <img id="logo" src="files/blacklogo.png" alt="files/blackicon.png">
-  <div id="Bar">
-    <table>
-      <tr>
-        <td>
-          <h3>
-            <a href="index.html">Home</a>
-          </h3>
-        </td>
-        <td>
-          <h3>
-            <a href="news.html">News</a>
-          </h3>
-        </td>
-        <td>
-          <h3>
+    <link rel="stylesheet" href="stylesheet.css" type="text/css" charset="utf-8" />
+    <img id="logo" src="files/blacklogo.png" alt="files/blackicon.png">
+    <div id="Bar">
+      <table>
+        <tr>
+          <td>
+            <h3>
+              <a href="index.html">Home</a>
+            </h3>
+          </td>
+          <td>
+            <h3>
               <a href="about.html">About</a>
-          </h3>
-        </td>
-        <td>
-          <h3>
+            </h3>
+          </td>
+          <td>
+            <h3>
+              <a href="news.html">News</a>
+            </h3>
+          </td>
+          <td>
+            <h3>
               <a href="gigs.html">Gigs</a>
-          </h3>
-        </td>
-      </tr>
-    </table>
-  </div>
-  <br />
-  <br />
-    <div class="block">
-        <h3>News</h3>
-        <p> Nothing here yet.</p>
+            </h3>
+          </td>
+        </tr>
+      </table>
     </div>
-  <br />
+    <br />
+    <br />
+    <div class="block">
+      <h3>News</h3>
+      <p> Nothing here yet.</p>
+    </div>
+    <br />
     <div id="Links">
       <!-- Add icon library -->
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <br />
-  <br />
-  <br />
-  <br />
-  <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
       <!-- Add font awesome icons -->
       <a href="https://www.facebook.com/Ambivist/" class="fa fa-facebook"></a>
       <a href="https://twitter.com/ambivistband/" class="fa fa-twitter"></a>
       <a href="https://www.instagram.com/ambivistband/" class="fa fa-instagram"></a>
       <a href="https://www.reddit.com/r/Ambivist/" class="fa fa-reddit"></a>
       <a href="https://github.com/babbysross/ambivist" class="fa fa-github"></a>
-    
+
       <div id="admin">
-          <a href="https://s3.console.aws.amazon.com/s3/">Admin Login</a>
+        <a href="https://s3.console.aws.amazon.com/s3/">Admin Login</a>
       </div>
     </div>
   </center>
