@@ -24,15 +24,20 @@
       #admin a:visited {color: #ece9e7;}
       #admin a:link {color: #ece9e7;}
       #admin a:hover {color: hsl(192, 67%, 27%);}
+      .admin {
+        margin-top: auto;
+      }
       .block {color:black; font-size: 100%; font-weight: 900} 
       .block h3 p {text-decoration: none}
        /* Style all font awesome icons */
       .fa {
-        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        padding: 2%;
         font-size: 30px;
-        width: 50px;
+        width: 10%;
+        max-width:50px;
         text-align: center;
-        bottom: 0px;
         text-decoration: none;
       }
 
@@ -127,9 +132,10 @@
       <a href="https://www.instagram.com/ambivistband/" class="fa fa-instagram"></a>
       <a href="https://www.reddit.com/r/Ambivist/" class="fa fa-reddit"></a>
       <a href="https://github.com/babbysross/ambivist" class="fa fa-github"></a>
-    </div>
-    <div id="admin">
-        <a href="https://s3.console.aws.amazon.com/s3/">Admin Login</a>
+    
+      <div id="admin">
+          <a href="https://s3.console.aws.amazon.com/s3/">Admin Login</a>
+      </div>
     </div>
   </center>
 </body>
