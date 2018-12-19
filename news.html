@@ -39,6 +39,13 @@
       font: fonts/
     }
 
+    .grid {
+        max-width: 1200px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 10px;
+    }
+
     #Bar {
       background-color: #1C1C1D;
       color: white;
@@ -209,22 +216,19 @@
     <br />
     <div class="block">
       <h3>News</h3>
-      <center>
-        <table style="width:30%">
-          <tbody>
-            <tr>
-              <td>
-                <div class="fb-page" data-href="https://www.facebook.com/Ambivist/" data-tabs="timeline" data-width="500" data-height="640" data-small-header="false" data-adapt-container-width="false" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/Ambivist/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/Ambivist/">Ambivist</a></blockquote></div>
-              </td>
-              <td>
-                <!-- InstaWidget -->
-                <a href="https://instawidget.net/v/user/ambivistband" id="link-b1fce442f09bc850cc4a44591bac9ec22379d1b69a8058565c911a26d3fce058">@ambivistband</a>
-                <script src="https://instawidget.net/js/instawidget.js?u=b1fce442f09bc850cc4a44591bac9ec22379d1b69a8058565c911a26d3fce058&width=500px"></script>
-              </td>
-            </tr>
-          </tbody>
-        </table>
-      </center>
+    </div>
+    <div class="grid">
+      <div>
+        <h4>Facebook</h4>
+        <div class="fb-page" data-href="https://www.facebook.com/Ambivist/" data-tabs="timeline" data-width="500" data-height="960px" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/Ambivist/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/Ambivist/">Ambivist</a></blockquote></div>
+      </div>
+      <div>
+      <h4>Instagram</h4>
+        <!-- InstaWidget -->
+          <a href="https://instawidget.net/v/user/ambivistband" id="link-b1fce442f09bc850cc4a44591bac9ec22379d1b69a8058565c911a26d3fce058">@ambivistband</a>
+          <script src="https://instawidget.net/js/instawidget.js?u=b1fce442f09bc850cc4a44591bac9ec22379d1b69a8058565c911a26d3fce058&width=500"></script>
+      </div>
+    </div>
     </div>
     <br>
         <div id="Links">
