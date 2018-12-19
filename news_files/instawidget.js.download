@@ -1,0 +1,15 @@
+window.addEventListener("message", instawidget_adjust_height, false);
+
+function instawidget_adjust_height(e) {
+	if (e.origin === "http://instawidget.net" || e.origin === "https://instawidget.net") {
+		document.getElementById("b1fce442f09bc850cc4a44591bac9ec22379d1b69a8058565c911a26d3fce058").style.height = e.data + "px";
+	}
+}
+
+function instawidget_render_iframe() {
+	var link = document.getElementById('link-b1fce442f09bc850cc4a44591bac9ec22379d1b69a8058565c911a26d3fce058');
+	if (link) { link.style.display = 'none'; }
+	document.write("<iframe id=\"b1fce442f09bc850cc4a44591bac9ec22379d1b69a8058565c911a26d3fce058\" style=\"border:0;width:500px;height:200px;margin:0;padding:0;\" scrolling=\"no\" frameborder=\"no\" src=\"https://instawidget.net/embed?u=b1fce442f09bc850cc4a44591bac9ec22379d1b69a8058565c911a26d3fce058\"></iframe>");
+}
+
+instawidget_render_iframe();
