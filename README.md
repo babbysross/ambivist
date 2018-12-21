@@ -1,7 +1,8 @@
-# Ambivist.com
-Official Ambivist band website.
-
 ![Ambivist](./files/logonew2.jpg)
+
+The official Ambivist band website.
+
+
 
 ## Files
 
